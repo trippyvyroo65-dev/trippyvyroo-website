@@ -1,1 +1,106 @@
-index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to Trippy Vyroo's official music website. Discover music, new releases and updates.">
+  <title>Trippy Vyroo | Official Website</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #09090f;
+      color: white;
+      text-align: center;
+    }
+    header {
+      padding: 22px;
+      border-bottom: 1px solid #292936;
+      letter-spacing: 3px;
+      font-weight: bold;
+    }
+    .hero {
+      min-height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 35px 20px;
+      background: radial-gradient(ellipse at top, #42205d, #09090f 70%);
+    }
+    .hero p { color: #c8bfd5; }
+    h1 {
+      font-size: clamp(42px, 10vw, 90px);
+      margin: 10px 0;
+      letter-spacing: -3px;
+    }
+    .tagline { font-size: 18px; }
+    .button {
+      display: inline-block;
+      margin: 12px 6px;
+      padding: 14px 25px;
+      border-radius: 30px;
+      background: #b84dff;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .button.secondary {
+      background: transparent;
+      border: 1px solid #b84dff;
+    }
+    section { padding: 45px 20px; }
+    h2 { color: #d79cff; }
+    .card {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 25px;
+      background: #171721;
+      border: 1px solid #333344;
+      border-radius: 16px;
+    }
+    footer {
+      padding: 25px;
+      color: #aaa;
+      border-top: 1px solid #292936;
+    }
+  </style>
+</head>
+<body>
+  <header>TRIPPY VYROO</header>
+
+  <main>
+    <div class="hero">
+      <p>OFFICIAL ARTIST WEBSITE</p>
+      <h1>TRIPPY VYROO</h1>
+      <p class="tagline">Feel the music. Live the vibe.</p>
+      <div>
+        <a class="button" href="#music">Explore My Music</a>
+        <a class="button secondary" href="#about">About Me</a>
+      </div>
+    </div>
+
+    <section id="music">
+      <h2>My Music</h2>
+      <div class="card">
+        <p>Discover my sound and stay tuned for new releases.</p>
+        <p>New music coming soon.</p>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Trippy Vyroo</h2>
+      <div class="card">
+        <p>Welcome to my official website. This is where you can
+        discover my music, follow my journey, and keep up with
+        the latest news and releases.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Trippy Vyroo. All rights reserved.
+  </footer>
+</body>
+</html>
